@@ -1,0 +1,71 @@
+{
+  "name": "DLUtls",
+  "version": "0.1.0",
+  "summary": "A short description of DLUtls.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LiYang/DLUtls",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiYang": "308689786@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiYang/DLUtls.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "DLUtls/Classes/**/*",
+  "resource_bundles": {
+    "DLUtls": [
+      "DLUtls/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "CoreGraphics",
+    "SystemConfiguration",
+    "CFNetwork",
+    "CoreTelephony",
+    "Security",
+    "QuartzCore",
+    "Foundation"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3",
+    "c++"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.5.1"
+    ],
+    "FMDB": [
+      "~> 2.5"
+    ],
+    "JSONKit-NoWarning": [
+      "~> 1.2"
+    ],
+    "MD5Digest": [
+      "~> 0.1.0"
+    ],
+    "OHHTTPStubs": [
+      "~> 3.1.8"
+    ],
+    "OpenUDID": [
+      "~> 1.0.0"
+    ],
+    "Reachability": [
+      "~> 3.2"
+    ],
+    "RegexKitLite": [
+      "~> 4.0"
+    ],
+    "UICKeyChainStore": [
+      "~> 2.0.4"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+../../../../MyPods/WeXSDK/Classes/WechatAuthSDK.h

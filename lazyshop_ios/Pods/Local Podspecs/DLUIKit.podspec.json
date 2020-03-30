@@ -1,0 +1,44 @@
+{
+  "name": "DLUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of DLUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LiYang/DLUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiYang": "308689786@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiYang/DLUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "DLUIKit/Classes/**/*",
+  "resource_bundles": {
+    "DLUIKit": [
+      "DLUIKit/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation",
+    "QuartzCore",
+    "Foundation",
+    "CoreText",
+    "CoreGraphics",
+    "WebKit"
+  ],
+  "dependencies": {
+    "Masonry": [
+      "~> 0.6.0"
+    ],
+    "ReactiveCocoa": [
+      "~> 2.3.1"
+    ]
+  }
+}

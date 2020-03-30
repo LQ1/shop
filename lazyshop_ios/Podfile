@@ -1,0 +1,55 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+# 忽略三方库警告
+inhibit_all_warnings!
+
+# 公共源
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'integralMall' do
+
+# 第三方库
+pod 'Base64nl'
+pod 'Masonry', '0.6.0'
+pod 'LinqToObjectiveC', '2.0.0'
+pod 'SDWebImage', '3.7.1'
+pod 'MBProgressHUD', '0.9'
+pod 'XMLDictionary', '1.4'
+pod 'UIImageView-PlayGIF', '1.0.2'
+pod 'IQKeyboardManager', '3.3.4'
+pod 'UMengAnalytics-NO-IDFA', '4.1.5'
+pod 'UICollectionViewLeftAlignedLayout', '1.0.2'
+pod 'ZFPlayer', '~> 3.0'
+pod 'ZFPlayer/AVPlayer', '~> 3.0'
+pod 'ZFPlayer/ControlView', '~> 3.0'
+
+pod 'BaseWithRAC', :path => './MyPods/'
+pod 'DLUtls', :path => './MyPods/'
+pod 'DLUIKit', :path => './MyPods/'
+pod 'DLShareSDK', :path => './MyPods/'
+pod 'WeXSDK', :path => './MyPods/'
+pod 'DLIAPService', :path => './MyPods/'
+
+# 检测内存
+#pod 'MLeaksFinder' , '0.2.1'
+
+end
+
+#更新库直接执行此命令行
+#pod update --no-repo-update
+
+#更新库的版本执行此命令行
+#pod repo update --verbose
+
+
+#报错信息：
+#svn: E170001: Unable to connect to a repository at URL 'svn://192.168.190.2/ios/DLStatisticTag/tags/2.0.4'
+#svn: E170001: Authentication error from server: Password incorrect
+#解决方案：
+#svn mkdir svn://192.168.190.2/ios/DLStatisticTag/tags/2.0.4 -m "update"
+
+
+#1、打开终端，运行sudo gem install cocoapods-deintegrate安装快速解除项目cocopods依赖的库
+#2、安装成功后，cd到你项目的更目录运行pod deintegrate解除项目cocopods依赖
+
+

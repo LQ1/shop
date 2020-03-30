@@ -1,0 +1,197 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Base64nl (1.2)
+  - BaseWithRAC (0.1.0):
+    - LKDBHelper (~> 2.1.2)
+    - Mantle (~> 1.5.4)
+    - Reachability (~> 3.2)
+    - ReactiveCocoa (~> 2.3.1)
+    - ReactiveViewModel (~> 0.2)
+  - DLIAPService (0.1.0):
+    - LinqToObjectiveC (~> 2.0.0)
+    - Mantle (~> 1.5.4)
+    - Masonry (~> 0.6.0)
+    - MD5Digest (~> 0.1.0)
+    - ReactiveCocoa (~> 2.3.1)
+    - ReactiveViewModel (~> 0.2)
+  - DLShareSDK (0.1.0):
+    - DLUIKit (~> 0.1.0)
+    - DLUtls (~> 0.1.0)
+    - Masonry (~> 0.6.0)
+    - WeXSDK (~> 0.1.0)
+  - DLUIKit (0.1.0):
+    - Masonry (~> 0.6.0)
+    - ReactiveCocoa (~> 2.3.1)
+  - DLUtls (0.1.0):
+    - AFNetworking (~> 2.5.1)
+    - FMDB (~> 2.5)
+    - JSONKit-NoWarning (~> 1.2)
+    - MD5Digest (~> 0.1.0)
+    - OHHTTPStubs (~> 3.1.8)
+    - OpenUDID (~> 1.0.0)
+    - Reachability (~> 3.2)
+    - RegexKitLite (~> 4.0)
+    - UICKeyChainStore (~> 2.0.4)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IQKeyboardManager (3.3.4)
+  - JSONKit-NoWarning (1.2)
+  - LinqToObjectiveC (2.0.0)
+  - LKDBHelper (2.1.9):
+    - FMDB
+  - Mantle (1.5.7):
+    - Mantle/extobjc (= 1.5.7)
+  - Mantle/extobjc (1.5.7)
+  - Masonry (0.6.0)
+  - MBProgressHUD (0.9)
+  - MD5Digest (0.1.0)
+  - OHHTTPStubs (3.1.12):
+    - OHHTTPStubs/Core (= 3.1.12)
+  - OHHTTPStubs/Core (3.1.12)
+  - OpenUDID (1.0.0)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI (= 2.3.1)
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - ReactiveViewModel (0.2):
+    - ReactiveCocoa (~> 2.1)
+  - RegexKitLite (4.0)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - UICKeyChainStore (2.0.7)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+  - UIImageView-PlayGIF (1.0.2)
+  - UMengAnalytics-NO-IDFA (4.1.5)
+  - WeXSDK (0.1.0)
+  - XMLDictionary (1.4)
+  - ZFPlayer (3.2.6):
+    - ZFPlayer/Core (= 3.2.6)
+  - ZFPlayer/AVPlayer (3.2.6):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.2.6):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.2.6)
+
+DEPENDENCIES:
+  - Base64nl
+  - BaseWithRAC (from `./MyPods/`)
+  - DLIAPService (from `./MyPods/`)
+  - DLShareSDK (from `./MyPods/`)
+  - DLUIKit (from `./MyPods/`)
+  - DLUtls (from `./MyPods/`)
+  - IQKeyboardManager (= 3.3.4)
+  - LinqToObjectiveC (= 2.0.0)
+  - Masonry (= 0.6.0)
+  - MBProgressHUD (= 0.9)
+  - SDWebImage (= 3.7.1)
+  - UICollectionViewLeftAlignedLayout (= 1.0.2)
+  - UIImageView-PlayGIF (= 1.0.2)
+  - UMengAnalytics-NO-IDFA (= 4.1.5)
+  - WeXSDK (from `./MyPods/`)
+  - XMLDictionary (= 1.4)
+  - ZFPlayer (~> 3.0)
+  - ZFPlayer/AVPlayer (~> 3.0)
+  - ZFPlayer/ControlView (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Base64nl
+    - FMDB
+    - IQKeyboardManager
+    - JSONKit-NoWarning
+    - LinqToObjectiveC
+    - LKDBHelper
+    - Mantle
+    - Masonry
+    - MBProgressHUD
+    - MD5Digest
+    - OHHTTPStubs
+    - OpenUDID
+    - Reachability
+    - ReactiveCocoa
+    - ReactiveViewModel
+    - RegexKitLite
+    - SDWebImage
+    - UICKeyChainStore
+    - UICollectionViewLeftAlignedLayout
+    - UIImageView-PlayGIF
+    - UMengAnalytics-NO-IDFA
+    - XMLDictionary
+    - ZFPlayer
+
+EXTERNAL SOURCES:
+  BaseWithRAC:
+    :path: "./MyPods/"
+  DLIAPService:
+    :path: "./MyPods/"
+  DLShareSDK:
+    :path: "./MyPods/"
+  DLUIKit:
+    :path: "./MyPods/"
+  DLUtls:
+    :path: "./MyPods/"
+  WeXSDK:
+    :path: "./MyPods/"
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Base64nl: a497bdcd1c01ea793d36b399016195a8713c0e95
+  BaseWithRAC: ab93cf58a20ac28f5e586500ea50d4c6241cd4f2
+  DLIAPService: 7262367c150c5ce7c2ecdabba7d1d1b5e7b99fb1
+  DLShareSDK: 90df57e68ef6edba9394f813184054ac219010a4
+  DLUIKit: 412db8acc7143d0595e5506f8e86daa7d7ee5a0c
+  DLUtls: d1e6d4eb714f61771e92030627dcc8f42d5206eb
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
+  JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  LinqToObjectiveC: 768f98c62d5b57cb6bdb7ab869e33d0a7a2da29c
+  LKDBHelper: 78e6c0de99f45375892223a334535d745a123dbd
+  Mantle: 4af47cf9547a4d0ad145a48cd0be3b411a5ae2b8
+  Masonry: 695dcee5cf90504cc83d85c40e0bd3f4376ed583
+  MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
+  MD5Digest: 99bcccfc389c5b7a0edaf66beb80fbc7596a3b65
+  OHHTTPStubs: 8cf0cfe6f34f13fc88fdf5b2a1b2c2536e8c0261
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: 3fe9b233ca6db810e86681b5749488564c1179a1
+  ReactiveViewModel: 3b25ab68711944b1706b9dd6d1b37f37cbe6b094
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
+  UICKeyChainStore: 696cd35083f7c8fb5e201d909b7e6aea6b478575
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+  UIImageView-PlayGIF: ebf2dbc3c065fd3ca951529eb24f93a154fb622e
+  UMengAnalytics-NO-IDFA: f1b08b540eba6ebad044a574cae6d988cf40cfda
+  WeXSDK: fdeb1753afc2a3ae0b373be429f87df853753ddb
+  XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
+  ZFPlayer: 66c58fe815b21e309d11f8c03114e9028a2212f4
+
+PODFILE CHECKSUM: 423eb811f2082e13a420259cdfaa67224265ae14
+
+COCOAPODS: 1.6.1

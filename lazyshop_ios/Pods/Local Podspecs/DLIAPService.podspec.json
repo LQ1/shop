@@ -1,0 +1,66 @@
+{
+  "name": "DLIAPService",
+  "version": "0.1.0",
+  "summary": "A short description of BaseWithRAC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LiYang/BaseWithRAC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiYang": "308689786@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiYang/BaseWithRAC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "DLIAPService/Classes/**/*",
+  "resource_bundles": {
+    "DLIAPService": [
+      "DLIAPService/Assets/*.png"
+    ]
+  },
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/../MyPods/DLIAPService/Classes"
+  },
+  "libraries": [
+    "z",
+    "stdc++",
+    "sqlite3.0"
+  ],
+  "ios": {
+    "vendored_frameworks": "DLIAPService/Lib/*.framework",
+    "vendored_libraries": "DLIAPService/Lib/*.a"
+  },
+  "frameworks": [
+    "UIKit",
+    "StoreKit",
+    "CoreMotion",
+    "CFNetwork",
+    "SystemConfiguration"
+  ],
+  "dependencies": {
+    "LinqToObjectiveC": [
+      "~> 2.0.0"
+    ],
+    "MD5Digest": [
+      "~> 0.1.0"
+    ],
+    "Mantle": [
+      "~> 1.5.4"
+    ],
+    "Masonry": [
+      "~> 0.6.0"
+    ],
+    "ReactiveCocoa": [
+      "~> 2.3.1"
+    ],
+    "ReactiveViewModel": [
+      "~> 0.2"
+    ]
+  }
+}

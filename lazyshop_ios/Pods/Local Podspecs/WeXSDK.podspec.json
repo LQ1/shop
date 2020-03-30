@@ -1,0 +1,42 @@
+{
+  "name": "WeXSDK",
+  "version": "0.1.0",
+  "summary": "WeXSDK.",
+  "description": "WeXSDK Local",
+  "homepage": "https://github.com/LiYang/WeXSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiYang": "308689786@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiYang/WeXSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "WeXSDK/Classes/**/*",
+  "resource_bundles": {
+    "WeXSDK": [
+      "WeXSDK/Assets/*.png"
+    ]
+  },
+  "ios": {
+    "vendored_libraries": "WeXSDK/Lib/*.a"
+  },
+  "frameworks": [
+    "UIKit",
+    "SystemConfiguration",
+    "Security",
+    "CoreGraphics",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3",
+    "stdc++"
+  ]
+}

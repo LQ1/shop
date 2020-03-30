@@ -1,0 +1,46 @@
+{
+  "name": "DLShareSDK",
+  "version": "0.1.0",
+  "summary": "DLShareSDK",
+  "description": "DLShareSDK local",
+  "homepage": "https://github.com/LiYang/BaseWithRAC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiYang": "308689786@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiYang/DLShareSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "DLShareSDK/Classes/**/*",
+  "resource_bundles": {
+    "DLShareSDK": [
+      "DLShareSDK/Assets/*.png"
+    ]
+  },
+  "vendored_frameworks": "DLShareSDK/Lib/*.framework",
+  "libraries": [
+    "sqlite3",
+    "iconv"
+  ],
+  "dependencies": {
+    "DLUIKit": [
+      "~> 0.1.0"
+    ],
+    "DLUtls": [
+      "~> 0.1.0"
+    ],
+    "Masonry": [
+      "~> 0.6.0"
+    ],
+    "WeXSDK": [
+      "~> 0.1.0"
+    ]
+  }
+}

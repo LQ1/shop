@@ -1,0 +1,45 @@
+{
+  "name": "BaseWithRAC",
+  "version": "0.1.0",
+  "summary": "A short description of BaseWithRAC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LiYang/BaseWithRAC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiYang": "308689786@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiYang/BaseWithRAC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "BaseWithRAC/Classes/**/*",
+  "resource_bundles": {
+    "BaseWithRAC": [
+      "BaseWithRAC/Assets/*.png"
+    ]
+  },
+  "prefix_header_contents": "#import <BaseMacro.h>",
+  "dependencies": {
+    "LKDBHelper": [
+      "~> 2.1.2"
+    ],
+    "Mantle": [
+      "~> 1.5.4"
+    ],
+    "Reachability": [
+      "~> 3.2"
+    ],
+    "ReactiveCocoa": [
+      "~> 2.3.1"
+    ],
+    "ReactiveViewModel": [
+      "~> 0.2"
+    ]
+  }
+}

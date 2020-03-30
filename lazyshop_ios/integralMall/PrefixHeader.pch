@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  integralMall
+//
+//  Created by Eggache_Yang on 2017/7/19.
+//  Copyright © 2017年 Eggache_Yang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "DLMacro.h"
+#import "UIMacro.h"
+#import "URLMacro.h"
+
+#import "AppDelegate.h"
+
+// iOS11
+#import "UIScrollView+CancelInsetBehavior.h"
+#import "UITableView+CloseSelfClassSizing.h"
+// iPhoneX
+#import "UIView+AddIPhoneXBottomHomeArea.h"
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import <Masonry/Masonry.h>
+
+#import <DLUIKit/DLLoading.h>
+#import <AVFoundation/AVFoundation.h>
+
+#import <LinqToObjectiveC/NSArray+LinqExtensions.h>
+#import <LinqToObjectiveC/NSDictionary+LinqExtensions.h>
+
+#import <ReactiveCocoa/UITableViewHeaderFooterView+RACSignalSupport.h>
+
+#endif
+
+#endif /* PrefixHeader_pch */
